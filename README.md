@@ -1,5 +1,6 @@
 # SIMULATION AND IMPLEMENTATION OF MULTIPLEXER
-
+# NAME: ABINANDHAN G
+# REG NO: 212223060003
 ## AIM
 To design and simulate a 4:1 Multiplexer (MUX) using Verilog HDL in four different modeling styles—Gate-Level, Data Flow, Behavioral, and Structural—and to verify its functionality through a testbench using the Vivado 2023.1 simulation environment. The experiment aims to understand how different abstraction levels in Verilog can be used to describe the same digital logic circuit and analyze their performance.
 
@@ -86,8 +87,10 @@ module mux4_to_1_gate (
 endmodule
 ```
 ## Simulated Output Gate Level Modelling
+OUTPUT
+![mux4to1gate](https://github.com/user-attachments/assets/1bac902b-4d57-4ac4-bbe1-142c021d0e25)
 
-_______ Here Paste the Simulated output  ___________
+
 
 ### 4:1 MUX Data Flow Implementation
 ```verilog
@@ -107,8 +110,10 @@ module mux4_to_1_dataflow (
 endmodule
 ```
 ## Simulated Output Data Flow Modelling
+OUTPUT
+![mux dataflow](https://github.com/user-attachments/assets/ae3ba759-d511-430e-a37b-f8b3a116725a)
 
-_______ Here Paste the Simulated output  ___________
+
 
 ### 4:1 MUX Behavioral Implementation
 ```verilog
@@ -133,8 +138,9 @@ module mux4_to_1_behavioral (
 endmodule
 ```
 ## Simulated Output Behavioral Modelling
+OUTPUT
+![BEHAVIOURAL](https://github.com/user-attachments/assets/15f952e8-8306-4590-a429-76f7dd8e0b68)
 
-_______ Here Paste the Simulated output  ___________
 
 
 ### 4:1 MUX Structural Implementation
@@ -170,8 +176,11 @@ module mux4_to_1_structural (
 endmodule
 ```
 ## Simulated Output Structural Modelling
+OUTPUT
 
-_______ Here Paste the Simulated output  ___________
+![structural](https://github.com/user-attachments/assets/3094173e-43e5-4f7b-b74e-6585d8dfd541)
+
+
 
 ### Testbench Implementation
 ```verilog
